@@ -1,8 +1,9 @@
 # gdx_font
-Script, který streamuje vlastní font do hry v tomto případě font Fire Sans, který podporuje diakritiku
+A script that streams a custom font to the game, in this case the Fire Sans font, which supports diacritics
 
-Integrace do scriptů:
-- SetTextFont(id_fontu)
-  ID Fontu se printne při startnutí scriptu v konzoli F8
-- AddTextComponentSubstringPlayerName("<font face='Fire Sans'>"..msg.."</font>") - pro blipy a jiné texty, kde nefunguje diakritika
-Pokud je nějaký problém, můžete mě kontaktovat na discordu: Gdany#2835
+This script was created using the following instructions: https://fivem-dev.cz/index.php?/topic/30-streamov%C3%A1n%C3%AD-fontu/
+
+### Script integration:
+- `SetTextFont(font_id)` - Font ID is printed when the script is started in the F8 console
+- A`ddTextComponentSubstringPlayerName("<font face='Fire Sans'>"..msg.."</font>")` - for blips and other texts where diacritics don't work
+- If there is any problem, you can contact me on discord: `Gdany#2835`

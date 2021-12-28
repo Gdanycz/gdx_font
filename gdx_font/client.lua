@@ -1,5 +1,5 @@
 Citizen.CreateThread(function()
-    RegisterFontFile('firesans') -- název soubory gfx bez koncovky gfx
-    fontId = RegisterFontId('Fire Sans') -- nazev ktery jsme dávali do in.xml
-    print(string.format('[gdx] setting up font Fire Sans as ID: %s',fontId))
+    RegisterFontFile('firesans') -- filename gfx without extension gfx
+    fontId = RegisterFontId('Fire Sans') -- the name we put in in.xml
+    print(string.format('[gdx_font] setting up font Fire Sans as ID: %s',fontId))
 end)
